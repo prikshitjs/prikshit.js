@@ -12,7 +12,7 @@ let bgcolorchange = () => {
   menu.style.background = random1+"a1";
 };
 
-setInterval(bgcolorchange,5000);
+setInterval(bgcolorchange,3000);
 
 menubar.addEventListener("click", ()=> {
     if(menubar.className == "fa-solid fa-bars") {
